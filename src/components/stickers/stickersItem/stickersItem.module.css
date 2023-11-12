@@ -1,0 +1,21 @@
+.sticker {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the column width as needed */
+    gap: 10px;
+    padding: 20px;
+    background-color: #f1f1f1; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-top: 25px;
+    text-align: center; 
+    width: 300px;
+  }
+
+  .sticker img {
+    max-width: 100%; 
+  }
+
+  .sticker:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
